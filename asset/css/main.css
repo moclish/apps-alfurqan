@@ -1,10 +1,10 @@
-.app-icon{
+.app-icon {
     width: 100%;
     max-width: 128px;
 }
 
 body {
-background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
 a:hover {
@@ -13,6 +13,5 @@ a:hover {
 }
 
 .footer {
-    font-size: 10px;
-
+    font-size: 12px;
 }
