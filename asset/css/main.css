@@ -4,9 +4,15 @@
 }
 
 body {
-    background-color: #f6f6f6;
+    height: 100vh;
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.container img {
+    background-color: #e7e8ea;
+}
 a:hover {
     background-color: #247881;
     color: white;
