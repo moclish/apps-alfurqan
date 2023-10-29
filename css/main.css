@@ -8,6 +8,7 @@ body {
     background-image: url(../images/bg-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    /* z-index: -1; */
 }
 
 .container img {
@@ -20,4 +21,8 @@ a:hover {
 
 .footer {
     font-size: 12px;
+}
+
+.footer i {
+    color: rgb(200, 0, 0);
 }
