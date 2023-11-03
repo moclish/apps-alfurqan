@@ -8,7 +8,12 @@ body {
     background-image: url(../images/bg-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* z-index: -1; */
+}
+
+@media (max-width: 575.98px) {
+    .footer {
+        color: aliceblue;
+    }
 }
 
 .container img {
