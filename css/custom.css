@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+.app-icon {
+    width: 100%;
+    max-width: 128px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container a {
+    background-color: #eee;
+    color: #247881;
+}
+.container a:hover {
+    background-color: #247881;
+    color: white;
+}
+
+.footer {
+    font-size: 12px;
+    padding-bottom: 1.5rem;
+}
+
+.footer i {
+    color: rgb(200, 0, 0);
+}
+
+.footer a {
+    text-decoration: none;
+    color: #247881;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+}
